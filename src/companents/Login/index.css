@@ -1,0 +1,49 @@
+.login {
+  width: 556px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+  .login {
+    width: 100%;
+  }
+}
+
+.title {
+  color: var(--blue-color-00);
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 48px;
+  margin-bottom: 4px;
+}
+
+.title-m {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 21px;
+  color: var(--grey-color-90);
+  margin-bottom: 57px;
+}
+
+.user-details-s {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.input-box-s {
+  width: 50%;
+}
+
+.password-input,
+.email-input,
+.name-input,
+.first-name-input {
+  padding: 34px 20px 18px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #006195;
+  width: 100%;
+}
